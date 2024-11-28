@@ -4,13 +4,11 @@ Repository ini berisi tiga skrip PHP yang menyelesaikan berbagai masalah algorit
 
 ## Deskripsi File
 
-### 1. `generate_oois.php`
+### 1. `generate_oeis.php`
 Skrip ini menghasilkan deret bilangan berdasarkan rumus OEIS:
 
-<!-- n(n+1)/2 + 1 -->
-\[
 a(n) = \frac{n(n+1)}{2} + 1  
-\]
+ref: [OEIS A000124](https://oeis.org/A000124)
 
 #### Fitur:
 - Menghasilkan deret bilangan untuk input `n` tertentu.
@@ -21,7 +19,6 @@ a(n) = \frac{n(n+1)}{2} + 1
 $test_case = 7;
 echo "Input: $test_case || Output: " . generateOEIS($test_case) . "\n";
 
-// Output: 2-4-7-11-16-22-29
 ```
 
 ### 2. `dense_ranking.php`
