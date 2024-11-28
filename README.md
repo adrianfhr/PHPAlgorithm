@@ -8,7 +8,8 @@ Repository ini berisi tiga skrip PHP yang menyelesaikan berbagai masalah algorit
 Skrip ini menghasilkan deret bilangan berdasarkan rumus OEIS:
 
 a(n) = n(n+1)/2 + 1 
-ref: [OEIS A000124](https://oeis.org/A000124)
+
+referensi: [OEIS A000124](https://oeis.org/A000124)
 
 #### Fitur:
 - Menghasilkan deret bilangan untuk input `n` tertentu.
